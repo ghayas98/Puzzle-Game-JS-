@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px; 
+    max-width: 400px; 
+    margin: auto; 
+    padding: 20px; 
+    border: 2px solid,red; 
+    background-color: wheat; 
+}
+
+.flex-container > div {
+    display: flex;
+    flex-basis: 100%; 
+    justify-content: center; 
+    gap: 10px; 
+}
+
+button {
+    width: 80px; 
+    height: 80px; 
+    font-size: 16px; 
+}
+.btn2{
+    height: 35px;
+    width: 60px;
+    font-size: 10px;
+}
+.text{
+    width: 75%;
+    padding-top: 50px;
+}
